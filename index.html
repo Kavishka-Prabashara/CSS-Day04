@@ -37,12 +37,84 @@ h3{
 href{
     color: aqua; /*Attribute Selector*/
 }
+[href^="https"]{
+    background: chartreuse;
+}
+[href$="uk"]{
+    color: mediumaquamarine;
+}
+[href*="met"]{
+    color: mediumaquamarine;
+}
+[href~="met"]{
+    color: mediumaquamarine;
+}
+#h4[href]{
+    background: deepskyblue;
+}
+h1:hover{
+    background: yellow;
 
+
+}
+a:visited{color: gold}
+h1:active {
+    background: deeppink;
+    color: aquamarine;
+
+}
+input{
+    background: #007bff;
+}
+li:first-child{
+    color: darkblue; /*Pseudo class selector*/
+}
+li:last-child{color: darkviolet;
+    color: #ff0000; /*Pseudo class selector*/
+}
+li:nth-child(3){
+    color: #00ffe8; /*Pseudo class selector*/
+}
+li:nth-last-child(10){
+    background: coral;
+}
+li:only-child{
+
+
+}
 
 
 </style>
 </head>
 <body>
+<h1>Helloooow CSS</h1>
+<img src="https://t4.ftcdn.net/jpg/04/07/19/21/240_F_407192167_6yXxxCSELabomJB8whWWJzV2RQL411by.jpg">
+<ul>
+    <li>Java</li>
+    <li>Python</li>
+    <li>C++</li>
+    <li>HTML</li>
+</ul>
+
+
+
+<form>
+    <input type="text" id txt name="txt" placeholder="Enter Here">
+
+</form>
+<a href="https://aaa.com">AAA</a>
+
+<a href="https://bbb.com">BBB</a>
+<a href="https://aaa.com">CCC</a>
+
+
+
+
+
+
+
+
+<h1>Welcome to IJSE</h1>
 <h1>Samsung</h1>
 <ol>
     <li>S series</li>
@@ -84,7 +156,14 @@ href{
 
 </ul>
 
+<ol>
+    <li><a href="http://www.facebooks.uk">FaceBook</a> </li>
+    <li><a href="https://www.youtube.com">Youtube</a> </li>
+    <li><a href="http://www.linkedin.com">Linked IN</a> </li>
+    <li><a href="https://www.whatsapp.com">Whatsapp</a> </li>
 
+</ol>
+<h1></h1>
 
 
 </body>
